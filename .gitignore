@@ -1,3 +1,8 @@
+# agora
+save/
+*.DS_Store
+# agora
+
 *.py[cod]
 
 # C extensions
