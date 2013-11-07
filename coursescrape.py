@@ -1,5 +1,5 @@
 """
-fscrapy.py
+coursescrape.py
 
 Because scrapy globally disallows scraping of .pdf files.
 And because mechanize imo is more pythonic, requiring less
