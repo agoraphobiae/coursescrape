@@ -4,6 +4,10 @@ coursescrape.py
 Because scrapy globally disallows scraping of .pdf files.
 And because mechanize imo is more pythonic, requiring less
 scaffolding etc.
+
+TODO:
+multithread/queue downloads instead of inline
+dont go to files not matching fileregex
 """
 
 from __future__ import print_function
@@ -18,6 +22,7 @@ DEBUG = True
 def debug(*args):
     if DEBUG:
         print(*args)
+RECURSE = False
 
 start_urls = {
     "CS70fa13":"http://inst.eecs.berkeley.edu/~cs70/fa13/",
@@ -60,8 +65,9 @@ def checkCourseSite(name, url):
                     checkedUrls.append(dest)
                     download(br, name, url, link.url)
                 elif urlregex.match(dest):
-                    debug('recursing to', link.url)
-                    recurseGoTo(dest)
+                    if RECURSE:
+                        debug('recursing to', link.url)
+                        recurseGoTo(dest)
 
     return recurseGoTo(url)
 
