@@ -1,7 +1,7 @@
-berkeleyscrape
+coursescrape
 ==============
-A scraper to download course resources from UC Berkeley's course websites. Currently it downloads files from the CS70 and CS61C Fa13 pages.
+A scraper to download course resources from course websites, originally made specifically for UC Berkeley's CS course websites.
 
-Run ```scrapy crawl insteecs``` to download files into the save/ directory.
+Configure the values in ```start_urls``` and then run ```python2 fscrapy.py``` to download files into the save/ directory. Files will be downloaded preserving relative paths (i.e. ```http://url.edu/path/to/file.pdf``` will go to ```coursename/path/to/file.pdf```).
 
-Made using Scrapy.
+Made using mechanize.
