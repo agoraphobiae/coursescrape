@@ -1,5 +1,6 @@
 # agora
 save/
+venv/
 *.DS_Store
 # agora
 
