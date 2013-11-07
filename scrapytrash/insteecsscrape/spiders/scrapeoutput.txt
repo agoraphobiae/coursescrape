@@ -1,0 +1,403 @@
+2013-10-28 22:27:45-0700 [scrapy] INFO: Scrapy 0.18.4 started (bot: insteecsscrape)
+2013-10-28 22:27:45-0700 [scrapy] DEBUG: Optional features available: ssl, http11
+2013-10-28 22:27:45-0700 [scrapy] DEBUG: Overridden settings: {'NEWSPIDER_MODULE': 'insteecsscrape.spiders', 'SPIDER_MODULES': ['insteecsscrape.spiders'], 'ITEM_PIPELINES': {'insteecsscrape.pipelines.Scrape70Pipeline': 1}, 'BOT_NAME': 'insteecsscrape'}
+2013-10-28 22:27:45-0700 [scrapy] DEBUG: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2013-10-28 22:27:45-0700 [scrapy] DEBUG: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2013-10-28 22:27:45-0700 [scrapy] DEBUG: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2013-10-28 22:27:45-0700 [scrapy] DEBUG: Enabled item pipelines: Scrape70Pipeline
+2013-10-28 22:27:45-0700 [insteecs] INFO: Spider opened
+2013-10-28 22:27:45-0700 [insteecs] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2013-10-28 22:27:45-0700 [scrapy] DEBUG: Telnet console listening on 0.0.0.0:6023
+2013-10-28 22:27:45-0700 [scrapy] DEBUG: Web service listening on 0.0.0.0:6080
+2013-10-28 22:27:45-0700 [insteecs] DEBUG: Redirecting (meta refresh) to <GET http://inst.eecs.berkeley.edu/~cs61c/fa13> from <GET http://inst.eecs.berkeley.edu/~cs61c/>
+2013-10-28 22:27:45-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs70/fa13/> (referer: None)
+2013-10-28 22:27:45-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/> (referer: None)
+2013-10-28 22:27:45-0700 [insteecs] DEBUG: Redirecting (301) to <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/> from <GET http://inst.eecs.berkeley.edu/~cs61c/fa13>
+2013-10-28 22:27:45-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs70/archives.html> (referer: http://inst.eecs.berkeley.edu/~cs70/fa13/)
+2013-10-28 22:27:45-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs70/fa13/hw/hw8.tex> (referer: http://inst.eecs.berkeley.edu/~cs70/fa13/)
+http://inst.eecs.berkeley.edu/~cs70/archives.html
+http://inst.eecs.berkeley.edu/~cs70/fa13/hw/hw8.tex
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs70/fa13/hw/hw7.tex> (referer: http://inst.eecs.berkeley.edu/~cs70/fa13/)
+http://inst.eecs.berkeley.edu/~cs70/fa13/hw/hw7.tex
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/> (referer: None)
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Redirecting (302) to <GET http://cs70-anari.rhcloud.com/login> from <GET http://cs70-anari.rhcloud.com/hws/hw5>
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Crawled (200) <GET http://www.youtube.com/watch?v=6tQx-J4nBSY> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://www.youtube.com/watch?v=6tQx-J4nBSY
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Redirecting (302) to <GET http://cs70-anari.rhcloud.com/login> from <GET http://cs70-anari.rhcloud.com/hws/hw9>
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Filtered duplicate request: <GET http://cs70-anari.rhcloud.com/login> - no more duplicates will be shown (see DUPEFILTER_CLASS)
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Redirecting (302) to <GET http://cs70-anari.rhcloud.com/login> from <GET http://cs70-anari.rhcloud.com/hws/hw6>
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Redirecting (302) to <GET http://cs70-anari.rhcloud.com/login> from <GET http://cs70-anari.rhcloud.com/hws/hw8>
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Crawled (200) <GET http://csillustrated.berkeley.edu/> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+http://csillustrated.berkeley.edu/
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Redirecting (302) to <GET http://cs70-anari.rhcloud.com/login> from <GET http://cs70-anari.rhcloud.com/hws/hw2>
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Redirecting (302) to <GET http://cs70-anari.rhcloud.com/login> from <GET http://cs70-anari.rhcloud.com/hws/hw4>
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Redirecting (302) to <GET http://cs70-anari.rhcloud.com/login> from <GET http://cs70-anari.rhcloud.com/hws/hw7>
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Crawled (200) <GET http://bnrg.cs.berkeley.edu/~randy/> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Redirecting (302) to <GET http://cs70-anari.rhcloud.com/login> from <GET http://cs70-anari.rhcloud.com/hws/hw1>
+http://bnrg.cs.berkeley.edu/~randy/
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/resources/gdb5-refcard.dvi> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Crawled (200) <GET http://www.youtube.com/watch?v=gDDaz6Sb8jo> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Redirecting (301) to <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/09/> from <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/09>
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Redirecting (meta refresh) to <GET http://inst.eecs.berkeley.edu/~cs61c/fa13> from <GET http://inst.eecs.berkeley.edu/~cs61c/index.html>
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Crawled (200) <GET http://www.youtube.com/watch?v=smHuBHxJdK8> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs61c/resources/gdb5-refcard.dvi
+http://www.youtube.com/watch?v=gDDaz6Sb8jo
+http://www.youtube.com/watch?v=smHuBHxJdK8
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Crawled (200) <GET http://cs70.wikidot.com/> (referer: http://inst.eecs.berkeley.edu/~cs70/fa13/)
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Redirecting (302) to <GET https://cs70-anari.rhcloud.com/login> from <GET http://cs70-anari.rhcloud.com/login>
+http://cs70.wikidot.com/
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Redirecting (302) to <GET http://cs70-anari.rhcloud.com/login> from <GET http://cs70-anari.rhcloud.com/>
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Redirecting (302) to <GET http://cs70-anari.rhcloud.com/login> from <GET http://cs70-anari.rhcloud.com/hws/hw3>
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Redirecting (301) to <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/> from <GET http://inst.eecs.berkeley.edu/~cs61c/fa13>
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Redirecting (301) to <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/08/> from <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/08>
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Redirecting (301) to <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/proj/03/> from <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/proj/03>
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Redirecting (301) to <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/hw/05/> from <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/hw/05>
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/09/> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Redirecting (301) to <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/07/> from <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/07>
+http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/09/
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Crawled (200) <GET https://piazza.com/> (referer: http://inst.eecs.berkeley.edu/~cs70/fa13/)
+https://piazza.com/
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Redirecting (301) to <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/06/> from <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/06>
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/hw/05/> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/08/> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+http://inst.eecs.berkeley.edu/~cs61c/fa13/hw/05/
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/lec/16LecF13OpenMP.pptx> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/proj/03/> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/08/
+http://inst.eecs.berkeley.edu/~cs61c/fa13/lec/16LecF13OpenMP.pptx
+http://inst.eecs.berkeley.edu/~cs61c/fa13/proj/03/
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/lec/15LecF13TLP.pptx> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+http://inst.eecs.berkeley.edu/~cs61c/fa13/lec/15LecF13TLP.pptx
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/hw/04/hw4solutions.txt> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+http://inst.eecs.berkeley.edu/~cs61c/fa13/hw/04/hw4solutions.txt
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/06/> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/06/
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/07/> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/07/
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Crawled (200) <GET http://www.youtube.com/watch?v=irwlU7esODA> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://www.youtube.com/watch?v=irwlU7esODA
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Redirecting (302) to <GET http://piazza.com/> from <GET https://piazza.com/class/hhdehma91q41zv>
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Redirecting (302) to <GET http://piazza.com/> from <GET https://piazza.com/class>
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/proj/02/> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+http://inst.eecs.berkeley.edu/~cs61c/fa13/proj/02/
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Redirecting (301) to <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/05/> from <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/05>
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Redirecting (301) to <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/hw/04/> from <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/hw/04>
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/lec/13LecF13Parallelism.pptx> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+http://inst.eecs.berkeley.edu/~cs61c/fa13/lec/13LecF13Parallelism.pptx
+2013-10-28 22:27:46-0700 [insteecs] DEBUG: Crawled (200) <GET https://cs70-anari.rhcloud.com/login> (referer: http://inst.eecs.berkeley.edu/~cs70/fa13/)
+https://cs70-anari.rhcloud.com/login
+2013-10-28 22:27:47-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/lec/14LecF13DLP.pptx> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+http://inst.eecs.berkeley.edu/~cs61c/fa13/lec/14LecF13DLP.pptx
+2013-10-28 22:27:47-0700 [insteecs] DEBUG: Redirecting (301) to <GET https://piazza.com/> from <GET http://piazza.com/>
+2013-10-28 22:27:47-0700 [insteecs] DEBUG: Redirecting (301) to <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/04/> from <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/04>
+2013-10-28 22:27:47-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/proj/01/> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+http://inst.eecs.berkeley.edu/~cs61c/fa13/proj/01/
+2013-10-28 22:27:47-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/lec/11LecF13Performance.pptx> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+http://inst.eecs.berkeley.edu/~cs61c/fa13/lec/11LecF13Performance.pptx
+2013-10-28 22:27:47-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/05/> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+2013-10-28 22:27:47-0700 [insteecs] DEBUG: Redirecting (301) to <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/proj/01/> from <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/proj/01>
+http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/05/
+2013-10-28 22:27:47-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/lec/07LecF13Numbers.pptx> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+http://inst.eecs.berkeley.edu/~cs61c/fa13/lec/07LecF13Numbers.pptx
+2013-10-28 22:27:47-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/hw/03/hw3solutions.txt> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+2013-10-28 22:27:47-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/hw/04/> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+2013-10-28 22:27:47-0700 [insteecs] DEBUG: Redirecting (301) to <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/hw/03/> from <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/hw/03>
+http://inst.eecs.berkeley.edu/~cs61c/fa13/hw/03/hw3solutions.txt
+http://inst.eecs.berkeley.edu/~cs61c/fa13/hw/04/
+2013-10-28 22:27:47-0700 [insteecs] DEBUG: Crawled (200) <GET http://users-tima.imag.fr/cis/guyot/Cours/Oparithm/english/Flottan.htm> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+http://users-tima.imag.fr/cis/guyot/Cours/Oparithm/english/Flottan.htm
+2013-10-28 22:27:47-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/lec/08LecF13Instructions.pptx> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+http://inst.eecs.berkeley.edu/~cs61c/fa13/lec/08LecF13Instructions.pptx
+2013-10-28 22:27:47-0700 [insteecs] DEBUG: Redirecting (301) to <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/03/> from <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/03>
+2013-10-28 22:27:47-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/lec/09LecF13Compilers.pptx> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+2013-10-28 22:27:47-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/03/ec2misc.html> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+2013-10-28 22:27:47-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/04/> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+http://inst.eecs.berkeley.edu/~cs61c/fa13/lec/09LecF13Compilers.pptx
+http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/03/ec2misc.html
+http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/04/
+2013-10-28 22:27:47-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/lec/12LecF13Caches.pptx> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+http://inst.eecs.berkeley.edu/~cs61c/fa13/lec/12LecF13Caches.pptx
+2013-10-28 22:27:47-0700 [insteecs] DEBUG: Redirecting (301) to <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/hw/02/> from <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/hw/02>
+2013-10-28 22:27:47-0700 [insteecs] DEBUG: Redirecting (301) to <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/01/> from <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/01>
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/lec/06LecF13MachineLangII.pptx> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+http://inst.eecs.berkeley.edu/~cs61c/fa13/lec/06LecF13MachineLangII.pptx
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Redirecting (301) to <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/02/> from <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/02>
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/hw/03/> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+http://inst.eecs.berkeley.edu/~cs61c/fa13/hw/03/
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET https://hkn.eecs.berkeley.edu/exams/course/CS/61C> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+https://hkn.eecs.berkeley.edu/exams/course/CS/61C
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/lec/03LecF13CIntroI.pptx> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+http://inst.eecs.berkeley.edu/~cs61c/fa13/lec/03LecF13CIntroI.pptx
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Redirecting (301) to <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/hw/01/> from <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/hw/01>
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/hw/01/hw1sol_release.txt> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+http://inst.eecs.berkeley.edu/~cs61c/fa13/hw/01/hw1sol_release.txt
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/lec/05LecF13MachineLangI.pptx> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+http://inst.eecs.berkeley.edu/~cs61c/fa13/lec/05LecF13MachineLangI.pptx
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://www.youtube.com/watch?v=54-wuFsPi0w> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://www.youtube.com/watch?v=54-wuFsPi0w
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/03/> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/03/
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/hw/02/> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+http://inst.eecs.berkeley.edu/~cs61c/fa13/hw/02/
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/01/> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/01/
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/hw/01/> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+http://inst.eecs.berkeley.edu/~cs61c/fa13/hw/01/
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/submit_tutorial_codereview.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs61a/fa13/submit_tutorial_codereview.html
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/02/> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+http://inst.eecs.berkeley.edu/~cs61c/fa13/labs/02/
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/lec/10LecF13Components.pptx> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://www.youtube.com/view_play_list?p=-XXv-cvA_iCIEwJhyDVdyLMCiimv6Tup> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://tutor.composingprograms.com/visualize.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+http://inst.eecs.berkeley.edu/~cs61c/fa13/lec/10LecF13Components.pptx
+http://www.youtube.com/view_play_list?p=-XXv-cvA_iCIEwJhyDVdyLMCiimv6Tup
+http://tutor.composingprograms.com/visualize.html
+http://inst.eecs.berkeley.edu/~cs61c/fa13/
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/composition.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs61a/fa13/composition.html
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/debugging.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/style_guide.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs61a/fa13/debugging.html
+http://inst.eecs.berkeley.edu/~cs61a/fa13/style_guide.html
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://composingprograms.com/pages/28-generic-operations.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://composingprograms.com/pages/28-generic-operations.html
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/22.py> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/21.py> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/22.py
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/hw7.py> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/hw7.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/21.py
+http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/hw7.py
+http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/hw7.html
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/20.py> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/hw6.py> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/20.py
+http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/hw6.py
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/lab/lab07/lab07.php> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs61a/fa13/lab/lab07/lab07.php
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://www.youtube.com/watch?list=PL6BsET-8jgYXQ2WSumpQfUgJMB03DODw-&v=b6RfDZmnU9Q&vq=hd1080> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/19.py> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://www.youtube.com/watch?list=PL6BsET-8jgYXQ2WSumpQfUgJMB03DODw-&v=b6RfDZmnU9Q&vq=hd1080
+http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/19.py
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://composingprograms.com/pages/27-recursive-data-structures.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://composingprograms.com/pages/27-recursive-data-structures.html
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://www.ee.surrey.ac.uk/Teaching/Unix/> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://www.ee.surrey.ac.uk/Teaching/Unix/
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/17.py> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/hw6.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/17.py
+http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/hw6.html
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/18.py> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/lab/lab06/lab06.php> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/18.py
+http://inst.eecs.berkeley.edu/~cs61a/fa13/lab/lab06/lab06.php
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://www.youtube.com/watch?list=PL6BsET-8jgYVBqXechKz-MFQcGKwNrUjk&v=YKngLS3MLas&vq=hd1080> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://www.youtube.com/watch?list=PL6BsET-8jgYVBqXechKz-MFQcGKwNrUjk&v=YKngLS3MLas&vq=hd1080
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://www.youtube.com/watch?list=PL6BsET-8jgYXI8B2lquo6gJPxrEk9aYAx&v=sCsD0BpuFV8&vq=hd1080> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://www.youtube.com/watch?list=PL6BsET-8jgYXI8B2lquo6gJPxrEk9aYAx&v=sCsD0BpuFV8&vq=hd1080
+2013-10-28 22:27:48-0700 [insteecs] DEBUG: Crawled (200) <GET http://composingprograms.com/pages/25-object-oriented-programming.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://composingprograms.com/pages/25-object-oriented-programming.html
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/lab/lab05/lab05.php> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/16.py> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs61a/fa13/lab/lab05/lab05.php
+http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/16.py
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/hw5.py> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/hw5.py
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://www.youtube.com/watch?list=PL6BsET-8jgYW00LuSRTXKOtEqQwDr2tdo&v=74zFPB1Iddw&vq=hd1080> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://www.youtube.com/watch?list=PL6BsET-8jgYW00LuSRTXKOtEqQwDr2tdo&v=74zFPB1Iddw&vq=hd1080
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://www.youtube.com/watch?list=PL6BsET-8jgYViiroqtMyK1wc9VkuXsEkV&v=mheLbFX96x4&vq=hd1080> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://www.youtube.com/watch?list=PL6BsET-8jgYViiroqtMyK1wc9VkuXsEkV&v=mheLbFX96x4&vq=hd1080
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://www.youtube.com/watch?list=PL6BsET-8jgYVjxMOVaonDShPthhon7zHr&v=F-0y5rBlwvI&vq=hd1080> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://www.youtube.com/watch?list=PL6BsET-8jgYVjxMOVaonDShPthhon7zHr&v=F-0y5rBlwvI&vq=hd1080
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/15.py> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/14.py> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/15.py
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/hw4.py> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/14.py
+http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/hw4.py
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://composingprograms.com/pages/24-mutable-data.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://composingprograms.com/pages/24-mutable-data.html
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/hw5.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/hw5.html
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/lec/04LecF13CIntroII.pptx> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+http://inst.eecs.berkeley.edu/~cs61c/fa13/lec/04LecF13CIntroII.pptx
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://composingprograms.com/pages/23-sequences.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://composingprograms.com/pages/23-sequences.html
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://www.youtube.com/watch?list=PL6BsET-8jgYUW_qHH_-T0bMvUVyXQ3Lyv&v=uSUwAVAyudE&vq=hd1080> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://www.youtube.com/watch?list=PL6BsET-8jgYUW_qHH_-T0bMvUVyXQ3Lyv&v=uSUwAVAyudE&vq=hd1080
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/hw4.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/proj/trends/trends.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/13.py> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/12.py> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/lab/lab04/lab04.php> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://www.youtube.com/watch?list=PL6BsET-8jgYXOOfRxA87FEFguyi3az-rX&v=B4NtzxYG-wk&vq=hd1080> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://www.youtube.com/watch?list=PL6BsET-8jgYU1NC4TW9fYW3ECY_R4v2k2&v=IPDuIgQ-Zm0&vq=hd1080> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/hw4.html
+http://inst.eecs.berkeley.edu/~cs61a/fa13/proj/trends/trends.html
+http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/13.py
+http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/12.py
+http://inst.eecs.berkeley.edu/~cs61a/fa13/lab/lab04/lab04.php
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://composingprograms.com/pages/22-data-abstraction.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://www.youtube.com/watch?list=PL6BsET-8jgYXOOfRxA87FEFguyi3az-rX&v=B4NtzxYG-wk&vq=hd1080
+http://www.youtube.com/watch?list=PL6BsET-8jgYU1NC4TW9fYW3ECY_R4v2k2&v=IPDuIgQ-Zm0&vq=hd1080
+http://composingprograms.com/pages/22-data-abstraction.html
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://composingprograms.com/pages/21-introduction.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://composingprograms.com/pages/21-introduction.html
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://www.youtube.com/watch?list=PL6BsET-8jgYXeaUyWvAx044uS8pwa_YTy&v=9966638j36o&vq=hd1080> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://www.youtube.com/watch?list=PL6BsET-8jgYXeaUyWvAx044uS8pwa_YTy&v=9966638j36o&vq=hd1080
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/10.py> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/11.py> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (401) <GET https://inst.eecs.berkeley.edu/~cs61a/complain> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/10.py
+http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/11.py
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/exams/midterm1.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs61a/fa13/exams/midterm1.html
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://composingprograms.com/pages/17-recursive-functions.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://composingprograms.com/pages/17-recursive-functions.html
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/lab/lab03/lab03.php> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs61a/fa13/lab/lab03/lab03.php
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/hw3.py> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/hw3.py
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://www.youtube.com/watch?list=PL6BsET-8jgYXdmPpyK2JCZGZ_DwBTvO2v&v=rMTnIbrajk8&vq=hd1080> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/hw3.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/09.py> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://www.youtube.com/watch?list=PL6BsET-8jgYWXK6_bh9_7-2sYo5xNbEbn&v=nYMibzT9kFU&vq=hd1080> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://www.youtube.com/watch?list=PL6BsET-8jgYXdmPpyK2JCZGZ_DwBTvO2v&v=rMTnIbrajk8&vq=hd1080
+http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/hw3.html
+http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/09.py
+http://www.youtube.com/watch?list=PL6BsET-8jgYWXK6_bh9_7-2sYo5xNbEbn&v=nYMibzT9kFU&vq=hd1080
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://www.youtube.com/watch?list=PL6BsET-8jgYXvfmj0lk61GrG5zSmP9SnN&v=QRRpzmEHqOo&vq=hd1080> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://www.youtube.com/watch?list=PL6BsET-8jgYXvfmj0lk61GrG5zSmP9SnN&v=QRRpzmEHqOo&vq=hd1080
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://www.youtube.com/watch?list=PL6BsET-8jgYUbtVApIBZ5ajvFai3AGL5W&v=3RmDK58S0GY&vq=hd1080> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://www.youtube.com/watch?list=PL6BsET-8jgYUbtVApIBZ5ajvFai3AGL5W&v=3RmDK58S0GY&vq=hd1080
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/06.py> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/07.py> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/06.py
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/hw2.py> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/hw2.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/07.py
+http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/hw2.py
+http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/hw2.html
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://composingprograms.com/pages/16-higher-order-functions.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://composingprograms.com/pages/16-higher-order-functions.html
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://composingprograms.com/pages/15-control.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://composingprograms.com/pages/15-control.html
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/proj/hog/hog.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs61a/fa13/proj/hog/hog.html
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/04.py> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/04.py
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/lab/lab02/lab02.php> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs61a/fa13/lab/lab02/lab02.php
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/05.py> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/05.py
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://composingprograms.com/pages/14-designing-functions.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://composingprograms.com/pages/14-designing-functions.html
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://www.youtube.com/watch?list=PL6BsET-8jgYV4I3WYCWXcR9usJFeMBQaH&v=uNhv5L6OVDI&vq=hd1080> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://composingprograms.com/pages/13-defining-new-functions.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://www.youtube.com/watch?list=PL6BsET-8jgYV4I3WYCWXcR9usJFeMBQaH&v=uNhv5L6OVDI&vq=hd1080
+http://composingprograms.com/pages/13-defining-new-functions.html
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://www.youtube.com/watch?list=PL6BsET-8jgYV9Za4dc3AtFt1pcOXUbIj1&v=s1o6vzGOl1c&vq=hd1080> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://www.youtube.com/watch?list=PL6BsET-8jgYV9Za4dc3AtFt1pcOXUbIj1&v=s1o6vzGOl1c&vq=hd1080
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/hw1.py> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/hw1.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/hw1.py
+http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/hw1.html
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/02.py> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/proj/hog_contest/hog_contest.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/02.py
+http://inst.eecs.berkeley.edu/~cs61a/fa13/proj/hog_contest/hog_contest.html
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/03.py> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/03.py
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://composingprograms.com/pages/12-elements-of-programming.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://composingprograms.com/pages/12-elements-of-programming.html
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://composingprograms.com/pages/11-getting-started.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://www.youtube.com/watch?list=PL6BsET-8jgYUAo6hf9iwL0YXH8qUO29yL&v=mKUEsXk4qJk&vq=hd1080> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://composingprograms.com/pages/11-getting-started.html
+http://www.youtube.com/watch?list=PL6BsET-8jgYUAo6hf9iwL0YXH8qUO29yL&v=mKUEsXk4qJk&vq=hd1080
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://www.youtube.com/watch?list=PL6BsET-8jgYVSP0xn3hbKLRpTq0BgRuF7&v=wEGde6NFwig&vq=hd1080> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://www.youtube.com/watch?list=PL6BsET-8jgYVSP0xn3hbKLRpTq0BgRuF7&v=wEGde6NFwig&vq=hd1080
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/hw0.py> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/hw0.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/hw0.py
+http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/hw0.html
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/lab/lab01/lab01.php> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:49-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/lab/lab00/lab00.php> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:50-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/01.py> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs61a/fa13/lab/lab01/lab01.php
+http://inst.eecs.berkeley.edu/~cs61a/fa13/lab/lab00/lab00.php
+http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/01.py
+2013-10-28 22:27:50-0700 [insteecs] DEBUG: Crawled (200) <GET http://www.youtube.com/watch?list=PL6BsET-8jgYWuUUlxIxOiI_MFJIvQFW1F&v=xDUEMeQC1Bc&vq=hd1080> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://www.youtube.com/watch?list=PL6BsET-8jgYWuUUlxIxOiI_MFJIvQFW1F&v=xDUEMeQC1Bc&vq=hd1080
+2013-10-28 22:27:50-0700 [insteecs] DEBUG: Redirecting (301) to <GET https://docs.google.com/forms/d/1Yq8hPPrK7RzTZUt9im5o0zCdL2OCk0HFGgE-VrMWGok/viewform> from <GET http://goo.gl/nHPrJt>
+2013-10-28 22:27:50-0700 [insteecs] DEBUG: Crawled (200) <GET http://www.youtube.com/watch?list=PL6BsET-8jgYUjSlabudSq6bb0tgrIteOq&v=69_nXwDqehM&vq=hd1080> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://www.youtube.com/watch?list=PL6BsET-8jgYUjSlabudSq6bb0tgrIteOq&v=69_nXwDqehM&vq=hd1080
+2013-10-28 22:27:50-0700 [insteecs] DEBUG: Crawled (200) <GET http://www.youtube.com/watch?list=PL6BsET-8jgYXrxjXNey3cdEVHZvAJmQNR&v=BDrFdkzWOsA&vq=hd1080> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://www.youtube.com/watch?list=PL6BsET-8jgYXrxjXNey3cdEVHZvAJmQNR&v=BDrFdkzWOsA&vq=hd1080
+2013-10-28 22:27:50-0700 [insteecs] DEBUG: Redirecting (301) to <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/solutions/> from <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/solutions>
+2013-10-28 22:27:50-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/hog_contest/results.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:50-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/exams/midterm2.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:50-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/proj/ants/ants.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+2013-10-28 22:27:50-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/staff.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs61a/fa13/hog_contest/results.html
+http://inst.eecs.berkeley.edu/~cs61a/fa13/exams/midterm2.html
+http://inst.eecs.berkeley.edu/~cs61a/fa13/proj/ants/ants.html
+http://inst.eecs.berkeley.edu/~cs61a/fa13/staff.html
+2013-10-28 22:27:50-0700 [insteecs] DEBUG: Crawled (200) <GET http://www.youtube.com/watch?list=PL6BsET-8jgYVFyf3csXHTocLc1X8bwkF6&v=vsc2kBnxfrI&vq=hd1080> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://www.youtube.com/watch?list=PL6BsET-8jgYVFyf3csXHTocLc1X8bwkF6&v=vsc2kBnxfrI&vq=hd1080
+2013-10-28 22:27:50-0700 [insteecs] DEBUG: Crawled (200) <GET http://www.cs.berkeley.edu/~vazirani/> (referer: http://inst.eecs.berkeley.edu/~cs70/fa13/)
+http://www.cs.berkeley.edu/~vazirani/
+2013-10-28 22:27:50-0700 [insteecs] DEBUG: Crawled (200) <GET https://docs.google.com/forms/d/1Yq8hPPrK7RzTZUt9im5o0zCdL2OCk0HFGgE-VrMWGok/viewform> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+https://docs.google.com/forms/d/1Yq8hPPrK7RzTZUt9im5o0zCdL2OCk0HFGgE-VrMWGok/viewform
+2013-10-28 22:27:50-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/about.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs61a/fa13/about.html
+2013-10-28 22:27:50-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/index.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs61a/fa13/index.html
+2013-10-28 22:27:50-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs70/fa13/hw/hw4.tex> (referer: http://inst.eecs.berkeley.edu/~cs70/fa13/)
+2013-10-28 22:27:50-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs70/fa13/hw/hw5.tex> (referer: http://inst.eecs.berkeley.edu/~cs70/fa13/)
+http://inst.eecs.berkeley.edu/~cs70/fa13/hw/hw4.tex
+2013-10-28 22:27:50-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs70/fa13/hw/hw3.tex> (referer: http://inst.eecs.berkeley.edu/~cs70/fa13/)
+2013-10-28 22:27:50-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/08.py> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs70/fa13/hw/hw5.tex
+2013-10-28 22:27:50-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs70/fa13/hw/hw6.tex> (referer: http://inst.eecs.berkeley.edu/~cs70/fa13/)
+2013-10-28 22:27:50-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs70/fa13/hw/hw2.tex> (referer: http://inst.eecs.berkeley.edu/~cs70/fa13/)
+http://inst.eecs.berkeley.edu/~cs70/fa13/hw/hw3.tex
+http://inst.eecs.berkeley.edu/~cs61a/fa13/slides/08.py
+2013-10-28 22:27:50-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/solutions/> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://inst.eecs.berkeley.edu/~cs70/fa13/hw/hw6.tex
+http://inst.eecs.berkeley.edu/~cs70/fa13/hw/hw2.tex
+http://inst.eecs.berkeley.edu/~cs61a/fa13/hw/solutions/
+2013-10-28 22:27:50-0700 [insteecs] DEBUG: Crawled (200) <GET https://piazza.com/berkeley/fall2013/61a> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+https://piazza.com/berkeley/fall2013/61a
+2013-10-28 22:27:51-0700 [insteecs] DEBUG: Crawled (200) <GET http://coe.berkeley.edu/students/engineering-diversity/caee/services/academic-support-services/copy_of_e7-intro-to-programming-matlab.html> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+http://coe.berkeley.edu/students/engineering-diversity/caee/services/academic-support-services/copy_of_e7-intro-to-programming-matlab.html
+2013-10-28 22:27:52-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/lec/02LecF13MapReduce.pptx> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+http://inst.eecs.berkeley.edu/~cs61c/fa13/lec/02LecF13MapReduce.pptx
+2013-10-28 22:27:52-0700 [insteecs] DEBUG: Crawled (200) <GET https://hkn.eecs.berkeley.edu/tutor/> (referer: http://inst.eecs.berkeley.edu/~cs61a/fa13/)
+https://hkn.eecs.berkeley.edu/tutor/
+2013-10-28 22:28:32-0700 [insteecs] DEBUG: Crawled (200) <GET http://inst.eecs.berkeley.edu/~cs61c/fa13/lec/01LecF13Intro.pptx> (referer: http://inst.eecs.berkeley.edu/~cs61c/fa13/)
+http://inst.eecs.berkeley.edu/~cs61c/fa13/lec/01LecF13Intro.pptx
+2013-10-28 22:28:32-0700 [insteecs] INFO: Closing spider (finished)
+2013-10-28 22:28:32-0700 [insteecs] INFO: Dumping Scrapy stats:
+    {'downloader/request_bytes': 64725,
+     'downloader/request_count': 204,
+     'downloader/request_method_count/GET': 204,
+     'downloader/response_bytes': 51441483,
+     'downloader/response_count': 204,
+     'downloader/response_status_count/200': 169,
+     'downloader/response_status_count/301': 21,
+     'downloader/response_status_count/302': 13,
+     'downloader/response_status_count/401': 1,
+     'finish_reason': 'finished',
+     'finish_time': datetime.datetime(2013, 10, 29, 5, 28, 32, 141017),
+     'log_count/DEBUG': 211,
+     'log_count/INFO': 3,
+     'request_depth_max': 1,
+     'response_received_count': 168,
+     'scheduler/dequeued': 204,
+     'scheduler/dequeued/memory': 204,
+     'scheduler/enqueued': 204,
+     'scheduler/enqueued/memory': 204,
+     'start_time': datetime.datetime(2013, 10, 29, 5, 27, 45, 816983)}
+2013-10-28 22:28:32-0700 [insteecs] INFO: Spider closed (finished)
