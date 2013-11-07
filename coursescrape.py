@@ -64,6 +64,9 @@ def checkCourseSite(name, url):
 
 def validateURL(baseurl, linkurl):
     #debug('ORIGINAL URL:', baseurl+linkurl)
+    # out links will not be relative, check
+    if urlparse(linkurl).scheme == 'http':
+        return linkurl
     # fix those pesky ../, ./ things
     url = urlparse(baseurl+linkurl)
     url = url.scheme + '://' + url.netloc + os.path.realpath(url.path)
