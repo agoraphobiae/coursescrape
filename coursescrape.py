@@ -22,8 +22,8 @@ def debug(*args):
 start_urls = {
     "CS70fa13":"http://inst.eecs.berkeley.edu/~cs70/fa13/",
     "CS61Cfa13":"http://inst.eecs.berkeley.edu/~cs61c/",
-    "CS61Afa13":"http://inst.eecs.berkeley.edu/~cs61a/fa13/",
-    "webdesignworkshop":"http://www.thewebdesignworkshop.co/"
+    "CS61Afa13":"http://inst.eecs.berkeley.edu/~cs61a/fa13/"
+    #"webdesignworkshop":"http://www.thewebdesignworkshop.co/"
 }
 
 fileext = ["pptx", "PPTX", "tex", "TEX", "pdf", "PDF", 'zip', "ZIP"]
@@ -31,8 +31,8 @@ fileexts = "|".join(str(s) for s in fileext)
 fileregex = "^.*\.(%s)$"%fileexts
 fileregex = re.compile(fileregex)
 
-#urlregex = "^http://inst\\.eecs\\.berkeley\\.edu.*$"
-urlregex = "^http://www\\.thewebdesignworkshop\\.co.*$"
+urlregex = "^http://inst\\.eecs\\.berkeley\\.edu.*$"
+#urlregex = "^http://www\\.thewebdesignworkshop\\.co.*$"
 urlregex = re.compile(urlregex)
 
 SAVEFOLDER = "save"
